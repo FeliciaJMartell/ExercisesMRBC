@@ -28,7 +28,7 @@ function reverseArrayInPlace(myFruit) {
 
 }
 
-console.log(reverseArrayPlace(["Banana", "apple", "grape", "pear"])) 
+console.log(reverseArrayInPlace(["Banana", "apple", "grape", "pear"])) 
 
 /* reverseArray. I funktionen så använder jag mina  exempelvärden banan, äpple, druvor och päron. 
 Jag skapar en tom array för att det är dit jag vill att den ska skickas. Jag vill alltså inte att funktionen ska skriva över mina värden, jag vill att den skapar
