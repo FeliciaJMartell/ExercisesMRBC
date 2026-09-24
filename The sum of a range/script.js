@@ -13,10 +13,10 @@ där den säger att om step är större än 0 gör i <= end om step är mindre �
 i detta läget blir det då 5, 4, 3, 2
 börjar på 
 5
-5-1 = 4
-4 - 1 = 3
-3 - 1 = 2 
-2 - 1 = 1 här stannar loopen eftersom i nu blir mindre än 2.
+5 + (-1) = 4
+4 + (-1) = 3
+3 + (-1) = 2 
+2 + (-1) = 1 här stannar loopen eftersom i nu blir mindre än 2.
 Så min array blir [5, 4, 3, 2]
 Så i det stora hela, villkoret kollar om 5 är större än 2, sant skicka till push, gå sedan tillbaka till villkoret och räkna ut nästa i.*/
 
