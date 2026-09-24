@@ -3,7 +3,7 @@
 // i function countBs så har jag skrivit ut string och att anropar därefter countChar.
 // min funktion countChar så har jag string (BOB) och char (B).
 // Jag ber funktionen börja på 0 och fortsätta tills han gått igenom alla bokstäver i BOB. Om bokstaven B finns i ordet. Räkna plus. 
-// sedan kör loopen köra 3 varv eftersom BOB är tre bokstäver & när den sedan är klar, skickar den till console log att skriva ut hur många B som fanns. 
+// sedan kör loopen 3 varv eftersom BOB är tre bokstäver & när den sedan är klar, skickar den till console log att skriva ut hur många B som fanns. 
 
 function countChar(string, char) {
     let count = 0;
@@ -17,7 +17,7 @@ function countChar(string, char) {
 }
 
 function countBs(string) {
-    return countChar(string, "b");
+    return countChar(string, "B");
 }
 
 console.log(countBs("BOB"));

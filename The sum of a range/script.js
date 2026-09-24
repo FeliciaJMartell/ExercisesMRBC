@@ -1,4 +1,4 @@
-/* använder funktionen range, med start, slut och steg. Jag använder let resultat med en tom array som ska fyllas. 
+/* använder funktionen range, med start, slut och steg. Jag använder let result med en tom array som ska fyllas. 
 loopen startar på i och i i detta läget är 1. sen rullar loopen tills i är lika med eller mindre än end (10).
 1 in i tom array [] (result push)
 Så först 1 mindre än 10, lägg på 2 (step värdet).
@@ -43,7 +43,7 @@ tredje rundan lägger den till totalen från andra varvet med tredje värdet fr�
 sedan
 12 + 10 = 22.
 
-Loopen kör 4 varv eftersom arrayens längd är 4, efter 4 varvet i=4 så blir villkoret i < array.lenght falsk eftersom arrayen innehåller 4 värden.  */ 
+Loopen kör 4 varv eftersom arrayens längd är 4, efter 4 varvet i=4 så blir villkoret i < array.length falsk eftersom arrayen innehåller 4 värden.  */ 
 
 function sum(array) {
     let total = 0;
